@@ -1,11 +1,9 @@
 {
-  "name": "deeplx-serverless",
+  "name": "deeplx-paas",
   "version": "1.0.0",
   "description": "DeepLX Free API for serverless",
-  "main": "translate.js",
   "scripts": {
-    "start": "node server.js",
-    "zip": "zip -r dist.zip ./"
+    "vercel-build": "vercel build"
   },
   "keywords": [
     "deeplx",
@@ -16,9 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.3",
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2",
-    "lodash": "^4.17.21",
-    "random-int": "^3.0.0"
+    "lodash": "^4.17.21"
   }
 }
