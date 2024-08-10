@@ -2,9 +2,6 @@
   "name": "deeplx-paas",
   "version": "1.0.0",
   "description": "DeepLX Free API for serverless",
-  "scripts": {
-    "vercel-build": "vercel build"
-  },
   "keywords": [
     "deeplx",
     "deepl",
