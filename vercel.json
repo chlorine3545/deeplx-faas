@@ -1,9 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      { "src": "api/translateFunction.js", "use": "@vercel/node" }
-    ],
-    "routes": [
-      { "src": "/api/translate", "dest": "/api/translateFunction.js" }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    { "src": "api/translateFunction.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/translate", "dest": "/api/translateFunction.js" }
+  ]
+}
